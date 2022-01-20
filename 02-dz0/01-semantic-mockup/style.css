@@ -1,0 +1,59 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    background-color: red;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(255,154,0);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+main {
+    padding: 15px 10px;
+    background-color: rgb(4,162,66);
+}
+
+article {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: rgb(19,25,255);
+}
+
+article + article {
+    margin-top: 5px;
+}
+
+
+article ul, article ol {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(189,0,255);
+}
+
+.font-size-45 {
+    font-size: 45px;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
