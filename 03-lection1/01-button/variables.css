@@ -1,0 +1,17 @@
+:root {
+    --description-text: var(--alternative-border);
+
+    --button-base-text: #ffffff;
+    --button-alternative-text: #495057;
+
+    --primary-bg: #4263EB;
+    --secondary-bg: #7048E8;
+    --alternative-bg: #ffffff;
+
+    --primary-bg-hover: #2342C0;
+    --secondary-bg-hover: #5028C6;
+    --alternative-bg-hover: #E5E5E5;
+
+    --alternative-border: #ACB5BD;
+    --alternative-border-hover: #212429;
+}
