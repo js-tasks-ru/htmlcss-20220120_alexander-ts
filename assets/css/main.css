@@ -19,20 +19,19 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
-    --description-text: var(--alternative-border);
-
-    --button-alternative-text: #495057;
+    --description-text: var(--grey-3);
+    --button-alternative-text: var(--grey-4);
 
     --primary-bg: #4263EB;
-    --secondary-bg: #7048E8;
-    --alternative-bg: #ffffff;
+    --secondary-bg: var(--purple);
+    --alternative-bg: var(--white);
 
     --primary-bg-hover: #2342C0;
     --secondary-bg-hover: #5028C6;
     --alternative-bg-hover: #E5E5E5;
 
-    --alternative-border: #ACB5BD;
-    --alternative-border-hover: #212429;
+    --alternative-border: var(--grey-3);
+    --alternative-border-hover: var(--black);
 }
 
 * {
