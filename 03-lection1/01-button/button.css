@@ -1,41 +1,17 @@
 /* Стилизация кнопки */
-@import 'normalize.css';
-@import 'variables.css';
-
-* {
-    box-sizing: border-box;
-}
-
-.button-container {
-    margin: 200px auto auto;
-    width: 750px;
-}
-
-.row-buttons {
-    display: flex;
-    align-items: center;
-}
-
-.description {
-    color: var(--description-text);
-    margin-right: auto;
-}
-
-.row-buttons button + button {
-    margin-left: 33px;
-}
-
-.row-buttons + .row-buttons {
-    margin-top: 16px;
-}
-
 .button {
     width: 189px;
     height: 48px;
     border-radius: 8px;
     border-width: 0;
-    color: var(--button-base-text);
+    color: var(--white);
     cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
@@ -44,7 +20,7 @@
     background-color: var(--primary-bg);
 }
 
-.hover .button--primary, .button--primary:hover {
+.button--primary:hover {
     background-color: var(--primary-bg-hover);
 }
 
@@ -52,7 +28,7 @@
     background-color: var(--secondary-bg);
 }
 
-.hover .button--secondary, .button--secondary:hover {
+.button--secondary:hover {
     background-color: var(--secondary-bg-hover);
 }
 
@@ -62,11 +38,12 @@
     border: 1px solid var(--alternative-border);
 }
 
-.hover .button--alternate, .button--alternate:hover {
+.button--alternate:hover {
     background-color: var( --alternative-bg-hover);
     border-color: var(--alternative-border-hover);
 }
 
 .button:disabled {
     opacity: 0.5;
+    pointer-events: none;
 }
