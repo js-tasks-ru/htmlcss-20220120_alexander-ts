@@ -1,8 +1,5 @@
 /* Стилизация аккордеона */
 .accordion {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
     max-width: 730px;
 }
 
@@ -15,6 +12,10 @@
     justify-content: space-between;
     align-items: center;
     color: var(--black);
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .summary__icon {
@@ -29,13 +30,17 @@
 }
 
 .accordion__item[open] .summary__icon {
-    transform: rotate(-0deg) !important;
+    transform: rotate(-0deg);
 }
 
 .accordion__content {
     color: var(--grey-4);
     margin-top: 16px;
     padding-bottom: 6px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .accordion__item {
